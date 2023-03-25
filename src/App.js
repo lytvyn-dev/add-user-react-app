@@ -18,7 +18,6 @@ function App() {
       ];
     });
   };
-  console.log(Boolean(usersList.length === 0));
   return (
     <Fragment>
       <AddUser onAddUser={addUserHandler} />
